@@ -21,7 +21,7 @@ def removeDuplicates(arr):
             newList.append(i)
     return newList
 
-if __name__ == __main__ :
+if __name__ == "__main__":
     try:
         arr=list(map(int,input("Enter elements: ").split()))
         print(f"The list after removing duplicates is: {removeDuplicates(arr)}")
